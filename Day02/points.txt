@@ -1,0 +1,170 @@
+bitwise operators
+------------------
+or
+--
+5 - 101
+3 - 011
+    ---
+    111		=> 4 + 2 + 1 => 7
+
+
+and
+----
+5 = 101
+3 - 011
+    ---
+    001		=> 1
+    --- 
+
+
+Strings
+-------
+
+strings are enclosed in " " or ' '		- single line string
+
+strings are alos enclosed in """  """ or  '''  ''' - Multiline string
+
+
+STRINGS ARE IMMUTABLE
+---------------------
+
+
+
+OOP's
+-----
+
+class Player:
+
+	
+	# constructor
+	def __init__(self, pname):		
+		self.pname = pname	
+
+
+	
+	# getter method
+	def get_details(self):
+		print(f"Name is {self.name}")
+
+	
+	# setter Method
+	def change_name(self, pnm)
+		self.pname = pnm
+
+
+
+ply1 = Player("Messi")
+ply1.get_details()
+
+
+without the setter method the object becomes immutable
+
+
+------------------------------------
+
+string functions
+----------------
+center
+
+"find" - 5 characters
+
+find in center of 40 spaces
+
+40 - 5 => 35 // 2 => 17
+
+17 spaces "find" 18 spaces
+
+----------------find---------------
+
+
+Data structures 
+---------------
+1. lists
+2. dictionary	
+3. tuple
+4. set
+
+Lists
+-----
+lists are similar to arrays
+
+
+arrays?
+-------
+1. collection homogenous data
+2. memory allocation is contigious
+
+
+Lists
+=====
+1. lists is a collection of hetrogenous data
+
+2. memory allocation is not contigious
+
+3. ordered collection
+
+4. they are subsscriptable
+
+5. they are mutable
+
+6. lists are enclosed in [ ]
+
+
+functions used to manipulate a list
+-----------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
