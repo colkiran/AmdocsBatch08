@@ -1,0 +1,74 @@
+Tuple
+-----
+tuples are immutable list
+
+tuples are enclosed in ( )
+
+
+Set
+---
+set is unique collection of values
+
+sets are not subscriptable
+
+sets are unordered collection
+
+sets are mutable
+
+sets are enclosed in  { }
+
+
+
+Dictionary
+----------
+is also called as an associative array
+
+		   0    1    2    3    4
+arr = ['a', 'b', 'c', 'd', 'e']
+
+
+dct = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+
+keys = 0, 1, 2, 3, 4		=> keys are user defined
+values = a, b, c, d, e
+
+
+
+1. keys in a dictionary is always unique
+
+2. dictionary is an unordered collection
+
+3. are mutable
+
+4. enclosed in  {k1: v1, k2: v2, k3: v3......}
+
+
+--------------------------------------------
+
+'clear', 'copy', 
+
+
+'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+Functions
+----------
+
+what are functions?
+-------------------
+reusability of code
+
+
+def fun_name():
+	print("hello")
+
+
+
+
+
+
+
+
+
+

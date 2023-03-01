@@ -2,7 +2,7 @@
 # add elements into the list - append, extend, insert
 
 print("append".center(40, "-"))
-
+# append adds one element into the list and the end of the list
 l1 = [1, 2, 3, 4, 5]
 print(f"l1 :{l1}")
 
